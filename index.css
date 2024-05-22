@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.partition {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 5px;
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+  
+}
+
+.partition > button {
+    position: absolute;
+}
+
+.split-btn {
+    top: 10px;
+    right: 10px;
+
+}
+
+.remove-btn {
+    bottom: 10px;
+    right: 10px;
+}
+
+button {
+    width: 50px;
+    padding: 20px;
+}
